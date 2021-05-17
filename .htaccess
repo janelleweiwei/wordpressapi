@@ -1,0 +1,6 @@
+Options +FollowSymLinks 
+RewriteEngine on 
+RewriteRule ^pge/(.*) /aau/wnm618/wordpressapi/index.php?type=page&slug=$1 [L] 
+RewriteRule ^pst/(.*) /aau/wnm618/wordpressapi/index.php?type=post&slug=$1 [L] 
+RewriteRule ^category/(.*)/(.*) /aau/wnm618/wordpressapi/index.php?type=category&slug=$1&id=$2 [L] 
+RewriteRule ^sngle/(.*) /aau/wnm618/wordpressapi/index.php?type=single&slug=$4 [L] 

@@ -1,0 +1,148 @@
+/*! CSS Used from: http://janelleweiwei.org/aau/wnm618/wordpressapi/elementor/assets/css/wp-blocks-theme.css ; media=all */
+@media all{
+:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-20:#005a87;}
+}
+/*! CSS Used from: http://janelleweiwei.org/aau/wnm618/wordpressapi/elementor/assets/css/wp-blocks-style.css ; media=all */
+@media all{
+:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-20:#005a87;}
+}
+/*! CSS Used from: http://janelleweiwei.org/aau/wnm618/wordpressapi/elementor/assets/css/frontend-legacy.css ; media=all */
+@media all{
+.elementor-column-gap-default > .elementor-row > .elementor-column > .elementor-element-populated{padding:10px;}
+@media (max-width: 767px){
+.elementor-column{width:100%;}
+}
+}
+/*! CSS Used from: http://janelleweiwei.org/aau/wnm618/wordpressapi/elementor/assets/css/frontend.css ; media=all */
+@media all{
+.elementor-aspect-ratio-169 .elementor-fit-aspect-ratio{padding-bottom:56.25%;}
+.elementor-aspect-ratio-916 .elementor-fit-aspect-ratio{padding-bottom:177.8%;}
+.elementor-fit-aspect-ratio{position:relative;height:0;}
+.elementor-fit-aspect-ratio video{width:100%;}
+.elementor-screen-only{position:absolute;top:-10000em;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0;}
+.elementor-clearfix:after{content:'';display:block;clear:both;width:0;height:0;}
+.elementor{-webkit-hyphens:manual;-ms-hyphens:manual;hyphens:manual;}
+.elementor *,.elementor *:before,.elementor *:after{-webkit-box-sizing:border-box;box-sizing:border-box;}
+.elementor a{-webkit-box-shadow:none;box-shadow:none;text-decoration:none;}
+.elementor img{height:auto;max-width:100%;border:none;-webkit-border-radius:0;border-radius:0;-webkit-box-shadow:none;box-shadow:none;}
+.elementor .elementor-widget:not(.elementor-widget-text-editor):not(.elementor-widget-theme-post-content) figure{margin:0;}
+.elementor video{max-width:100%;width:100%;margin:0;line-height:1;border:none;}
+.elementor-invisible{visibility:hidden;}
+:root{--page-title-display:block;}
+.elementor-section{position:relative;}
+.elementor-section .elementor-container{display:-webkit-box;display:-ms-flexbox;display:flex;margin-right:auto;margin-left:auto;position:relative;}
+@media (max-width: 1024px){
+.elementor-section .elementor-container{-ms-flex-wrap:wrap;flex-wrap:wrap;}
+}
+.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}
+.elementor-row{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;}
+@media (max-width: 1024px){
+.elementor-row{-ms-flex-wrap:wrap;flex-wrap:wrap;}
+}
+.elementor-widget-wrap{position:relative;width:100%;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-line-pack:start;align-content:flex-start;}
+.elementor:not(.elementor-bc-flex-widget) .elementor-widget-wrap{display:-webkit-box;display:-ms-flexbox;display:flex;}
+.elementor-widget-wrap > .elementor-element{width:100%;}
+.elementor-widget{position:relative;}
+.elementor-widget:not(:last-child){margin-bottom:20px;}
+.elementor-column{position:relative;min-height:1px;display:-webkit-box;display:-ms-flexbox;display:flex;}
+.elementor-column-wrap{width:100%;position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;}
+@media (min-width: 768px){
+.elementor-column.elementor-col-33{width:33.333%;}
+.elementor-column.elementor-col-50{width:50%;}
+.elementor-column.elementor-col-66{width:66.666%;}
+.elementor-column.elementor-col-100{width:100%;}
+}
+@media (max-width: 767px){
+.elementor-column{width:100%;}
+}
+@media (min-width: 1025px){
+#elementor-device-mode:after{content:'desktop';}
+}
+@media (min-width: 768px) and (max-width: 1024px){
+#elementor-device-mode:after{content:'tablet';}
+}
+@media (max-width: 767px){
+#elementor-device-mode:after{content:'mobile';}
+}
+.elementor-element .elementor-widget-container{-webkit-transition:background 0.3s, border 0.3s, -webkit-border-radius 0.3s, -webkit-box-shadow 0.3s;transition:background 0.3s, border 0.3s, -webkit-border-radius 0.3s, -webkit-box-shadow 0.3s;-o-transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, -webkit-border-radius 0.3s, -webkit-box-shadow 0.3s;}
+.elementor-tab-title a{color:inherit;}
+.elementor-widget-divider{--divider-border-style:none;--divider-border-width:1px;--divider-color:#2C2C2C;--divider-icon-size:20px;--divider-element-spacing:10px;--divider-pattern-height:24px;--divider-pattern-size:20px;--divider-pattern-url:none;--divider-pattern-repeat:repeat-x;}
+.elementor-widget-divider .elementor-divider{display:-webkit-box;display:-ms-flexbox;display:flex;}
+.elementor-widget-divider .elementor-divider-separator{display:-webkit-box;display:-ms-flexbox;display:flex;margin:0;direction:ltr;}
+.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator{border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color);}
+.elementor-heading-title{padding:0;margin:0;line-height:1;}
+.elementor-widget-image{text-align:center;}
+.elementor-widget-image .elementor-image img{vertical-align:middle;display:inline-block;}
+.elementor-widget-image-box .elementor-image-box-content{width:100%;}
+@media (min-width: 768px){
+.elementor-widget-image-box.elementor-position-top .elementor-image-box-img{margin:auto;}
+.elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;}
+}
+@media (max-width: 767px){
+.elementor-widget-image-box .elementor-image-box-img{margin-left:auto!important;margin-right:auto!important;margin-bottom:15px;}
+}
+.elementor-widget-image-box .elementor-image-box-img{display:inline-block;}
+.elementor-widget-image-box .elementor-image-box-wrapper{text-align:center;}
+.elementor-widget-image-box .elementor-image-box-description{margin:0;}
+.elementor-testimonial-wrapper{overflow:hidden;text-align:center;}
+.elementor-testimonial-wrapper .elementor-testimonial-content{font-size:1.3em;margin-bottom:20px;}
+.elementor-testimonial-wrapper .elementor-testimonial-name{line-height:1.5;color:inherit;display:block;}
+.elementor-testimonial-wrapper .elementor-testimonial-job{font-size:0.85em;color:inherit;display:block;}
+.elementor-testimonial-wrapper .elementor-testimonial-meta{width:100%;line-height:1;}
+.elementor-testimonial-wrapper .elementor-testimonial-meta-inner{display:inline-block;}
+.elementor-testimonial-wrapper .elementor-testimonial-meta .elementor-testimonial-details,.elementor-testimonial-wrapper .elementor-testimonial-meta .elementor-testimonial-image{display:table-cell;vertical-align:middle;}
+.elementor-testimonial-wrapper .elementor-testimonial-meta .elementor-testimonial-image img{width:60px;height:60px;-webkit-border-radius:50%;border-radius:50%;-o-object-fit:cover;object-fit:cover;max-width:none;}
+.elementor-testimonial-wrapper .elementor-testimonial-meta.elementor-testimonial-image-position-aside .elementor-testimonial-image{padding-right:15px;}
+.elementor-testimonial-wrapper .elementor-testimonial-meta.elementor-testimonial-image-position-aside .elementor-testimonial-details{text-align:left;}
+.elementor-toggle{text-align:left;}
+.elementor-toggle .elementor-tab-title{font-weight:bold;line-height:1;margin:0;padding:15px;border-bottom:1px solid #D4D4D4;cursor:pointer;outline:none;}
+.elementor-toggle .elementor-tab-title .elementor-toggle-icon{display:inline-block;width:1em;}
+.elementor-toggle .elementor-tab-title .elementor-toggle-icon.elementor-toggle-icon-left{float:left;text-align:left;}
+.elementor-toggle .elementor-tab-title .elementor-toggle-icon .elementor-toggle-icon-closed{display:block;}
+.elementor-toggle .elementor-tab-title .elementor-toggle-icon .elementor-toggle-icon-opened{display:none;}
+.elementor-toggle .elementor-tab-content{padding:15px;border-bottom:1px solid #D4D4D4;display:none;}
+@media (max-width: 767px){
+.elementor-toggle .elementor-tab-title{padding:12px;}
+.elementor-toggle .elementor-tab-content{padding:12px 10px;}
+}
+.elementor-widget-video .elementor-widget-container{overflow:hidden;-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);}
+.elementor-widget-video .elementor-video{-o-object-fit:cover;object-fit:cover;}
+}
+/*! CSS Used from: http://janelleweiwei.org/aau/wnm618/wordpressapi/elementor/assets/css/post-68.css ; media=all */
+@media all{
+.elementor-section.elementor-section-boxed>.elementor-container{max-width:1140px;}
+.elementor-widget:not(:last-child){margin-bottom:20px;}
+@media (max-width:1024px){
+.elementor-section.elementor-section-boxed>.elementor-container{max-width:1025px;}
+}
+@media (max-width:767px){
+.elementor-section.elementor-section-boxed>.elementor-container{max-width:768px;}
+}
+}
+/*! CSS Used from: http://janelleweiwei.org/aau/wnm618/wordpressapi/elementor/assets/css/global.css ; media=all */
+@media all{
+.elementor-widget-heading .elementor-heading-title{color:var(--e-global-color-primary);font-family:var(--e-global-typography-primary-font-family), Sans-serif;font-weight:var(--e-global-typography-primary-font-weight);}
+.elementor-widget-text-editor{color:var(--e-global-color-text);font-family:var(--e-global-typography-text-font-family), Sans-serif;font-weight:var(--e-global-typography-text-font-weight);}
+.elementor-widget-divider{--divider-color:var(--e-global-color-secondary);}
+.elementor-widget-image-box .elementor-image-box-content .elementor-image-box-title{color:var(--e-global-color-primary);font-family:var(--e-global-typography-primary-font-family), Sans-serif;font-weight:var(--e-global-typography-primary-font-weight);}
+.elementor-widget-image-box .elementor-image-box-content .elementor-image-box-description{color:var(--e-global-color-text);font-family:var(--e-global-typography-text-font-family), Sans-serif;font-weight:var(--e-global-typography-text-font-weight);}
+.elementor-widget-testimonial .elementor-testimonial-content{color:var(--e-global-color-text);font-family:var(--e-global-typography-text-font-family), Sans-serif;font-weight:var(--e-global-typography-text-font-weight);}
+.elementor-widget-testimonial .elementor-testimonial-name{color:var(--e-global-color-primary);font-family:var(--e-global-typography-primary-font-family), Sans-serif;font-weight:var(--e-global-typography-primary-font-weight);}
+.elementor-widget-testimonial .elementor-testimonial-job{color:var(--e-global-color-secondary);font-family:var(--e-global-typography-secondary-font-family), Sans-serif;font-weight:var(--e-global-typography-secondary-font-weight);}
+.elementor-widget-toggle .elementor-toggle-title,.elementor-widget-toggle .elementor-toggle-icon{color:var(--e-global-color-primary);}
+.elementor-widget-toggle .elementor-toggle .elementor-toggle-title{font-family:var(--e-global-typography-primary-font-family), Sans-serif;font-weight:var(--e-global-typography-primary-font-weight);}
+.elementor-widget-toggle .elementor-toggle .elementor-tab-content{color:var(--e-global-color-text);font-family:var(--e-global-typography-text-font-family), Sans-serif;font-weight:var(--e-global-typography-text-font-weight);}
+}
+/*! CSS Used from: Embedded ; media=all */
+@media all{
+.fas{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1;}
+.fa-caret-right:before{content:"\f0da";}
+.fa-caret-up:before{content:"\f0d8";}
+.fas{font-family:"Font Awesome 5 Free";}
+.fas{font-weight:900;}
+}
+/*! CSS Used from: http://janelleweiwei.org/aau/wnm618/wordpressapi/css/elementor-override.css */
+.elementor-invisible{visibility:visible;}
+/*! CSS Used fontfaces */
+@font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-weight:400;font-display:block;src:url(https://ka-f.fontawesome.com/releases/v5.15.1/webfonts/free-fa-regular-400.eot);src:url(https://ka-f.fontawesome.com/releases/v5.15.1/webfonts/free-fa-regular-400.eot?#iefix) format("embedded-opentype"),url(https://ka-f.fontawesome.com/releases/v5.15.1/webfonts/free-fa-regular-400.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v5.15.1/webfonts/free-fa-regular-400.woff) format("woff"),url(https://ka-f.fontawesome.com/releases/v5.15.1/webfonts/free-fa-regular-400.ttf) format("truetype"),url(https://ka-f.fontawesome.com/releases/v5.15.1/webfonts/free-fa-regular-400.svg#fontawesome) format("svg");}
+@font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-weight:900;font-display:block;src:url(https://ka-f.fontawesome.com/releases/v5.15.1/webfonts/free-fa-solid-900.eot);src:url(https://ka-f.fontawesome.com/releases/v5.15.1/webfonts/free-fa-solid-900.eot?#iefix) format("embedded-opentype"),url(https://ka-f.fontawesome.com/releases/v5.15.1/webfonts/free-fa-solid-900.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v5.15.1/webfonts/free-fa-solid-900.woff) format("woff"),url(https://ka-f.fontawesome.com/releases/v5.15.1/webfonts/free-fa-solid-900.ttf) format("truetype"),url(https://ka-f.fontawesome.com/releases/v5.15.1/webfonts/free-fa-solid-900.svg#fontawesome) format("svg");}

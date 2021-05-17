@@ -1,0 +1,27 @@
+/*
+Theme Name:     Twentytwelve Child
+Theme URI:      http://websitename.com/
+Description:    Child theme for the twentytwelve theme 
+Author:         Michael Catanzaro
+Template:       twentytwelve
+Version:        0.1.0
+
+social icons
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+*/
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+} */
