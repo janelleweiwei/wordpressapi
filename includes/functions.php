@@ -1,6 +1,6 @@
 <? // DOCUMENT_ROOT
 
-$base_url = "http://www.janelleweiwei.org/wordpress/";
+$base_url = "https://www.janelleweiwei.org/wordpress/";
 
 function getData($pageId){ //posts and pages
   global $base_url;

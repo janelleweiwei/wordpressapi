@@ -10,11 +10,14 @@
 var wpcf7 = {"apiSettings":{"root":"https:\/\/www.janelleweiwei.org\/wordpress\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
 /* ]]> */
 </script>
-<script type='text/javascript' src='https://www.janelleweiwei.org/wordpress/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.3.1' id='contact-form-7-js'></script>
+<script type="text/javascript" src="https://www.janelleweiwei.org/wordpress/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.4.1" id="contact-form-7-js"></script>
 <script type='text/javascript' src='https://www.janelleweiwei.org/wordpress/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205' id='twentytwelve-navigation-js'></script>
 <script type='text/javascript' src='https://www.janelleweiwei.org/wordpress/wp-includes/js/wp-embed.min.js?ver=5.5.3' id='wp-embed-js'></script>
 <script type='text/javascript' src='https://www.janelleweiwei.org/wordpress/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.0.14' id='elementor-frontend-modules-js'></script>
-<script type='text/javascript' src='https://www.janelleweiwei.org/wordpress/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4' id='jquery-ui-position-js'></script>
+<script type="text/javascript" src="https://www.janelleweiwei.org/wordpress/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1" id="jquery-ui-core-js">
+</script>
+<script type="text/javascript" src="https://www.janelleweiwei.org/wordpress/wp-includes/js/jquery/ui/mouse.min.js?ver=1.12.1" id="jquery-ui-mouse-js"></script>
+<script type="text/javascript" src="https://www.janelleweiwei.org/wordpress/wp-includes/js/jquery/ui/draggable.min.js?ver=1.12.1" id="jquery-ui-draggable-js"></script>
 <script type='text/javascript' src='https://www.janelleweiwei.org/wordpress/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1' id='elementor-dialog-js'></script>
 <script type='text/javascript' src='https://www.janelleweiwei.org/wordpress/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2' id='elementor-waypoints-js'></script>
 <script type='text/javascript' src='https://www.janelleweiwei.org/wordpress/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6' id='swiper-js'></script>

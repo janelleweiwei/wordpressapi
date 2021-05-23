@@ -1,6 +1,6 @@
 const db = {};
-const base_url = "http://www.janelleweiwei.org/wordpress/";  // original wordpress website - json resource
-const post_url = "http://"+window.location.hostname+"/aau/wnm618/wordpressapi/"; // where live site is
+const base_url = "https://www.janelleweiwei.org/wordpress/";  // original wordpress website - json resource
+const post_url = "https://"+window.location.hostname+"/aau/wnm618/wordpressapi/"; // where live site is
 const media_image = "media_image-2";
 
 const getData = (url,callback) => {
@@ -69,7 +69,6 @@ const printPostsData = (pageUrl, catId) => { // loop through all posts
     // console.log(pageUrl);
     let data = d.map(function(o,i,a){ // put info into array (object,index,array)
       o.postDate = o.date.substr(0,10); // grab first 10 characters of date/time 
-      console.log(o.better_featured_image);
       o.thumbnail = !o.better_featured_image?"":"<img src='"+o.better_featured_image.media_details.sizes.medium.source_url+"'>";
       o.url_slug = `${post_url}${"sngle"}/${o.slug}`; // set link url
       o.content = o.content.rendered;
@@ -123,8 +122,6 @@ $(function(){  //****** start here ******
   let types = [/\/pge\/(.+)/, /\/pst\/(.+)/, /\/category\/(.+)\/(.+)/, /\/sngle\/(.+)/, /\/\#\/(.+)/] // check for data type using regular expressions
   if (types[0].test(location.pathname)) {
     [,slug] = types[0].exec(location.pathname);
-    console.log(types[0].exec(location.pathname));
-    console.log(slug);
     if (slug == "posts") {
       printPostsData("wp-json/wp/v2/posts/?_embed"); // get all post data regardless of category
     } else {
@@ -133,15 +130,12 @@ $(function(){  //****** start here ******
   } else if (types[1].test(location.pathname)) {
     [,slug] = types[1].exec(location.pathname);
     printPostsData("wp-json/wp/v2/posts/?slug="+slug+"&_embed"); // get all post data by category
-
   } else if (types[2].test(location.pathname)) {
     [,cat,slug] = types[2].exec(location.pathname);
     printPostsData("wp-json/wp/v2/posts/?categories="+slug+"&_embed", slug); // get specific post data by category
-
   } else if(types[3].test(location.pathname)) {
     [,slug] = types[3].exec(location.pathname);
     printPostData("wp-json/wp/v2/posts/?slug="+slug+"&_embed", slug);  // get single post data
-
   } else if (types[4].test(location.pathname)) {
     // if dummy page do nothing
   } else {  // if home page is static otherwise need different default

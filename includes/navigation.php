@@ -6,26 +6,12 @@
 $nav_menu = getData("wp-json/wp-api-menus/v2/menus/1");
 //$website_url = "/wnm618/WordpressAPI"; // if url path (example)
 $website_url = "/aau/wnm618/wordpressapi";
-$root_url = "http://".$_SERVER['HTTP_HOST'].$website_url;
+$root_url = "https://".$_SERVER['HTTP_HOST'].$website_url;
 
 $header = "wp-json/";
 $hd = getData($header);
   
 ?>
-
-<script>
-
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function showHideHamburger() {
-  var topnav = document.getElementById("myTopnav");
-  if (topnav.className === "nav-pills topnav") {
-    topnav.className = "topnav responsive";
-  } else {
-    topnav.className = "nav-pills topnav";
-  }
-}
-
-</script>
 
 <header>
   <nav class="navbar nav-pills topnav navbar-expand-sm navbar-light bg-light" id="myTopnav"  style="width: 100% z-index: 50000">
@@ -42,7 +28,6 @@ function showHideHamburger() {
           <?
         for($i=0; $i<count($nav_menu->items); $i++) {
           $page_type = "/".$nav_menu->items[$i]->object."/"; // page,post,category,custom
-          // echo "page type: ", $page_type;
           if($page_type == '/page/') {$page_type = '/pge/';}
           if($page_type == '/custom/') {$page_type = '/#/';}  //change 11-16
           if($page_type == '/post/') {$page_type = '/pst/';}
